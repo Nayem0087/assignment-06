@@ -4,7 +4,7 @@ import shoppingCart from '../../../assets/products/shopping-cart.png'
 const Navbar = () => {
     return (
         <div className='shadow-sm'>
-            <div className="navbar max-w-[90%] mx-auto bg-base-100">
+            <div className="navbar max-w-[80%] mx-auto bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -23,7 +23,7 @@ const Navbar = () => {
                     <a className="btn btn-ghost text-xl bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent font-bold">DigiTools</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul className="menu menu-horizontal px-1 font-semibold text-gray-800">
                         <li><a>Products</a></li>
                         <li><a>Features</a></li>
                         <li><a>Pricing</a></li>
@@ -33,7 +33,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end flex gap-4">
                     <img src={shoppingCart} alt="shopping-cart" />
-                    <a href="">Login</a>
+                    <a className='font-semibold' href="">Login</a>
                     <a className="btn rounded-full text-white font-semibold bg-gradient-to-r from-[#4F39F6] to-[#9514FA]">Get Started</a>
                 </div>
             </div>
