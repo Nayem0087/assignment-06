@@ -98,9 +98,9 @@ const Footer = () => {
           <div className="md:col-span-2 flex flex-col items-center">
             <h3 className="text-white">Social Links</h3>
             <ul className="flex gap-4 py-4">
-                <FaFacebook className="text-blue-600 text-2xl" />
-                <FaLinkedin className="text-blue-600 text-2xl" />
-                <FaTwitter className="text-blue-600 text-2xl" />
+                <FaFacebook className="text-gray-200 text-2xl" />
+                <FaLinkedin className="text-gray-200 text-2xl" />
+                <FaTwitter className="text-gray-200 text-2xl" />
             </ul>
           </div>
         </div>

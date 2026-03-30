@@ -7,8 +7,8 @@ const Workflow = () => {
             <h1 className='font-bold md:text-4xl text-2xl text-center text-white mb-2'>Ready to Transform Your Workflow?</h1>
             <p className='text-gray-300 max-w-150 text-center'>Join thousands of professionals who are already using DigiTools to work smarter. Start your free trial today.</p>
             <div className='flex gap-4 py-6'>
-                <button className="btn text-xl  rounded-full text-white font-semibold bg-gradient-to-r from-[#4F39F6] to-[#9514FA]">Explore Products</button>
-                <button className="btn rounded-full btn-neutral btn-outline text-white">
+                <button className="btn btn-outline  text-xl rounded-full  font-semibold ">Explore Products</button>
+                <button className="btn rounded-full btn-neutral btn-outline">
                     View Pricing</button>
             </div>
             <p className='text-gray-300 text-center'>14-day free trial • No credit card required • Cancel anytime</p>
