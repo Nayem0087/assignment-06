@@ -2,6 +2,7 @@
 import './App.css'
 import ActiveUser from './assets/Component/ActiveUser'
 import Banner from './assets/Component/Banner'
+import Cart from './assets/Component/Cart'
 import Footer from './assets/Component/Footer'
 import GetStarted from './assets/Component/GetStarted'
 import Models from './assets/Component/Models'
@@ -26,6 +27,7 @@ function App() {
      <Banner/>
      <ActiveUser/>
      <Models modelPromise = {modelPromise}/>
+     <Cart />
      <GetStarted/>
      <TransparentPricing/>
      <Workflow/>
