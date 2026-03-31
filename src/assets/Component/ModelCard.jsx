@@ -1,7 +1,7 @@
 import { Check } from 'lucide-react';
 import React, { useState } from 'react';
 
-const ModelCard = ({ model }) => {
+const ModelCard = ({ model, carts, setCarts }) => {
 
     const [isBuyNow, setBuyNow] = useState(false);
 
