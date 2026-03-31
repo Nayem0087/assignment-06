@@ -3,22 +3,20 @@ import { Check } from "lucide-react";
 
 const Pricing = () => {
     return (
-        <div className="py-16 bg-gray-100">
-            {/* Heading */}
+        <div className="py-16">
+            
             <div className="text-center mb-12">
-                <h1 className="text-4xl font-bold  inline-block px-6 py-2">
+                <h1 className="text-4xl font-bold  inline-block px-6">
                     Simple, Transparent Pricing
                 </h1>
-                <p className="text-gray-500 mt-4">
+                <p className="text-gray-500 pt-2">
                     Choose the plan that fits your needs. Upgrade or downgrade anytime.
                 </p>
             </div>
 
-            {/* Cards */}
             <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto px-4">
 
-                {/* Starter */}
-                <div className="bg-white rounded-2xl p-6 shadow">
+                <div className="bg-gray-100 rounded-2xl p-6 shadow">
                     <h2 className="text-xl font-semibold">Starter</h2>
                     <p className="text-gray-500 text-sm mb-4">
                         Perfect for getting started
@@ -50,7 +48,6 @@ const Pricing = () => {
                     </button>
                 </div>
 
-                {/* Pro */}
                 <div className="bg-gradient-to-r from-purple-500 to-indigo-600 text-white rounded-2xl p-6 shadow-lg relative">
 
                     <span className="font-semibold absolute -top-3 left-1/2 -translate-x-1/2 bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">
@@ -84,8 +81,7 @@ const Pricing = () => {
                     </button>
                 </div>
 
-                {/* Enterprise */}
-                <div className="bg-white rounded-2xl p-6 shadow">
+                <div className="bg-gray-100 rounded-2xl p-6 shadow">
                     <h2 className="text-xl font-semibold">Enterprise</h2>
                     <p className="text-gray-500 text-sm mb-4">
                         For teams and businesses

@@ -6,7 +6,7 @@ import rocketIcon from '../../../assets/banner/rocket.png'
 const GetStarted = () => {
     return (
         <div>
-            <h2 className='font-semibold text-5xl text-center'>Get Started in 3 Steps</h2>
+            <h2 className='font-semibold md:text-5xl text-4xl text-center'>Get Started in 3 Steps</h2>
             <p className='text-gray-600 text-center pt-3 pb-10'>Start using premium digital tools in minutes, not hours.</p>
             <div className='max-w-[80%] mx-auto grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 mb-20'>
                 <div className='shadow-2xl flex flex-col text-center p-4'>
