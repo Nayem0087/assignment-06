@@ -23,8 +23,8 @@ const modelPromise = getModels()
 function App() {
 
   const [activeTab, setActiveTab] = useState('model')
-    const [carts, setCarts] = useState([])
-    
+  const [carts, setCarts] = useState([])
+
 
   return (
     <>
@@ -38,11 +38,28 @@ function App() {
       </div>
 
       <div className="tabs tabs-box justify-center mb-10 bg-transparent">
-        <input type="radio" name="my_tabs_1" className="tab rounded-full w-30" aria-label="Products"
-          onClick={() => setActiveTab('model')}
-          defaultChecked />
-        <input type="radio" name="my_tabs_1" className="tab rounded-full w-30" aria-label="Carts"
-          onClick={() => setActiveTab('carts')}
+        <input
+          type="radio"
+          name="my_tabs_1"
+          className={`tab rounded-full w-30 ${activeTab === 'model'
+              ? 'bg-primary text-white'
+              : 'bg-base-200'
+            }`}
+          aria-label="Products"
+          checked={activeTab === 'model'}
+          onChange={() => setActiveTab('model')}
+        />
+
+        <input
+          type="radio"
+          name="my_tabs_1"
+          className={`tab rounded-full w-30 ${activeTab === 'carts'
+              ? 'bg-primary text-white'
+              : 'bg-base-200'
+            }`}
+          aria-label={`Cart (${carts.length})`}
+          checked={activeTab === 'carts'}
+          onChange={() => setActiveTab('carts')}
         />
       </div>
 

@@ -1,5 +1,6 @@
 import { Check } from 'lucide-react';
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const ModelCard = ({ model, carts, setCarts }) => {
 
@@ -8,6 +9,7 @@ const ModelCard = ({ model, carts, setCarts }) => {
     const handleBuyNow = () => {
         setBuyNow(true);
         setCarts([...carts, model]);
+        toast.success('Item added to Cart successfully!')
     }
 
     return (
@@ -48,7 +50,8 @@ const ModelCard = ({ model, carts, setCarts }) => {
                 </div>
 
                 <div>
-                    <button onClick={handleBuyNow} className='btn btn-primary btn-block rounded-full text-white mt-5'>
+                    <button onClick={handleBuyNow} className={`btn btn-block rounded-full text-white mt-5
+                    ${isBuyNow ? 'bg-green-600' : 'btn-primary'}`}>
                         {isBuyNow ? 'Added to Cart' : 'Buy Now'}
                     </button>
                 </div>
