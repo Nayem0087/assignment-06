@@ -1,12 +1,50 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌟 DigiTools PlatForm
 
-Currently, two official plugins are available:
+## 📌 Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a modern and responsive web application built using React. The project focuses on creating a clean UI and smooth user experience using reusable components. It showcases product data, interactive features, and dynamic state management.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Technologies Used
+
+* ⚛️ React.js
+* 🎨 Tailwind CSS & DaisyUI
+* 📜 JavaScript (ES6+)
+* 🔔 React-Toastify (NPM Package)
+* 🗂️ JSON (for product data)
+
+---
+
+## ✨ Features
+
+* 🛒 Dynamic Product Listing with JSON Data
+* 🔄 Cart System with Real-Time Price Calculation
+* 🔔 Toast Notifications for User Actions
+
+---
+
+## 🔗 Live Link
+
+*Add your live site link here*
+
+## 📂 GitHub Repository
+
+*Add your repository link here*
+
+---
+
+## 💡 Future Improvements
+
+* Add authentication system
+* Improve UI animations
+* Integrate backend API
+
+---
+
+## 🙌 Author
+
+Nayem Ahmmed
+
+---
