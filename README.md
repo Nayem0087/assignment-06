@@ -27,11 +27,11 @@ This is a modern and responsive web application built using React. The project f
 
 ## 🔗 Live Link
 
-*Add your live site link here*
+https://digi-tools-interfaces.netlify.app/
 
 ## 📂 GitHub Repository
 
-*Add your repository link here*
+https://github.com/Nayem0087/assignment-06
 
 ---
 
