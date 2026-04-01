@@ -7,6 +7,7 @@ const ModelCard = ({ model, carts, setCarts }) => {
 
     const handleBuyNow = () => {
         setBuyNow(true);
+        setCarts([...carts, model]);
     }
 
     return (

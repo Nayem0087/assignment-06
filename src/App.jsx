@@ -24,6 +24,7 @@ function App() {
 
   const [activeTab, setActiveTab] = useState('model')
     const [carts, setCarts] = useState([])
+    
 
   return (
     <>
@@ -38,15 +39,15 @@ function App() {
 
       <div className="tabs tabs-box justify-center mb-10 bg-transparent">
         <input type="radio" name="my_tabs_1" className="tab rounded-full w-30" aria-label="Products"
-          onClick={() => setActiveTab('Products')}
+          onClick={() => setActiveTab('model')}
           defaultChecked />
         <input type="radio" name="my_tabs_1" className="tab rounded-full w-30" aria-label="Carts"
-          onClick={() => setActiveTab('Carts')}
+          onClick={() => setActiveTab('carts')}
         />
       </div>
 
-      {activeTab === 'Products' && <Models modelPromise={modelPromise} carts={carts} setCarts={setCarts} />}
-      {activeTab === 'Carts' && <Cart />}
+      {activeTab === 'model' && <Models modelPromise={modelPromise} carts={carts} setCarts={setCarts} />}
+      {activeTab === 'carts' && <Cart carts={carts} />}
       <GetStarted />
       <TransparentPricing />
       <Workflow />
