@@ -8,13 +8,14 @@ const Cart = ({ carts, setCarts }) => {
     }, 0)
 
     const handlePayment = () => {
-        setCarts([])
+        setCarts([]);
+        toast.success('All Item delete to Cart successfully!')
     }
 
     const handleRemove = (item) => {
         const filteredArray = carts.filter(c => c.id !== item.id)
         setCarts(filteredArray);
-        toast('Item added to Cart successfully!')
+        toast.success('Item delete to Cart successfully!')
     }
 
     return (
@@ -30,7 +31,7 @@ const Cart = ({ carts, setCarts }) => {
                             <div className='flex justify-between'>
                                 <div className='md:flex items-center gap-4'>
                                 <div>
-                                    <img className='h-12 w-12 rounded-full p-2' src={item.image} alt={item.name} />
+                                    <img className='h-12 w-12 rounded-full p-2 bg-white' src={item.image} alt={item.name} />
                                 </div>
                                 <div>
                                     <h2 className='font-bold text-xl'>{item.name}</h2>
