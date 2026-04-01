@@ -47,7 +47,7 @@ function App() {
       </div>
 
       {activeTab === 'model' && <Models modelPromise={modelPromise} carts={carts} setCarts={setCarts} />}
-      {activeTab === 'carts' && <Cart carts={carts} />}
+      {activeTab === 'carts' && <Cart carts={carts} setCarts={setCarts} />}
       <GetStarted />
       <TransparentPricing />
       <Workflow />
